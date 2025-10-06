@@ -59,11 +59,11 @@ Ao iniciar a aplicação:
 - O Spring cria um usuário padrão: user
 
 - E uma senha gerada automaticamente (visível no log)
-
+---
 ## 4. Fluxo de Autenticação
 
 O **fluxo de autenticação** no Spring Security define o passo a passo que o framework segue para validar um usuário e manter seu estado de segurança ativo durante as requisições.
----
+
 ### 🧭 Visão Geral do Fluxo
 
 1. O **usuário envia credenciais** (login e senha) para o endpoint de autenticação (`/login` ou `/auth/login`).
